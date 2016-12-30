@@ -1,0 +1,18 @@
+# Sources file for KrnlAllocs.sys
+# ===============================
+
+
+TARGETNAME=KrnlAllocs
+TARGETTYPE=DRIVER
+NTDEBUGTYPE=both
+USE_PDB=1
+
+LINKER_FLAGS=/MAP
+USER_C_FLAGS= /FAs
+
+
+# Input stuff
+# -----------
+
+SOURCES=..\DrvMain.cpp
+
